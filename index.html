@@ -1,0 +1,125 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables-Assignment</title>
+    <style>
+        table {
+            width: 70%;
+            border-collapse:collapse;
+            margin-bottom: 10px;
+        }
+        th, td {
+            border: 1px solid #2e9dde;
+            padding: 8px;
+        }
+        th {
+            background-color: #8bd7bf;
+            text-align: center;
+         }
+        caption {
+            caption-side: top;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Task 1: Basic Table Creation -->
+    <!-- A table representing a product inventory list -->
+    <table>
+        <caption>Product Inventory List</caption>
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+            <tr>
+                <td>Oriflame Hairx </td>
+                <td>Hair Mask</td>
+                <td>$69.00</td>
+                <td>200 ML</td>
+            </tr>
+            <tr>
+                <td>Oriflame Novage</td>
+                <td>Face Day cream</td>
+                <td>$109.00</td>
+                <td>15-50 ML</td>
+            </tr>
+            <tr>
+                <td>Oriflame Milk & Honey</td>
+                <td>Skin Body Cream</td>
+                <td>$17<sup>99</sup></td>
+                <td>250g</td>
+            </tr>
+            <tr>
+                <td>Oriflame Love Potion </td>
+                <td>Parfum</td>
+                <td>$34<sup>30</sup></td>
+                <td>1 Fl Oz</td>
+            </tr>
+            <tr>
+                <td>Oriflame Love Natural</td>
+                <td>facial Kit</td>
+                <td>$30<sup>00</sup></td>
+                <td>4 Pcs.</td>
+            </tr>
+    </table>
+
+    <!-- Task 2: Practical Application - Class Schedule -->
+    <!-- A table representing a weekly class schedule -->
+    <table>
+        <caption>Weekly Class Schedule</caption>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+            <tr>
+                <td>9.00 AM - 10 AM</td>
+                <td rowspan="2">Computer Science</td>
+                <td>JavaScript</td>
+                <td rowspan="2">Computer Science</td>
+                <td>JavaScript</td>
+                <td>Github</td>
+            </tr>
+            <tr>
+                <td>10 AM- 11 PM</td>
+                <td>C++</React></td>
+                <td>C++</td>
+                <td>Linkedin</td>
+            </tr>
+            <tr>
+                <td> 11 AM - 12 AM</td>
+                <td>Html</td>
+                <td>React Js</td>
+                <td>Html</td>
+                <td>React js</td>
+                <td>Npm</td>
+            </tr>
+            <tr>
+                <td>12 AM- 1.00 PM</td>
+                <td colspan="5"><center><b>Lunch Break</center></b></td>
+            </tr>
+            <tr>
+                <td>1.00 PM - 2.00 PM</td>
+                <td>Css</td>
+                <td>Next Js</td>
+                <td>Css</td>
+                <td>Next Js</td>
+                <td>Half day</td>
+            </tr>         
+        
+    </table>
+</body>
+</html>
