@@ -2,7 +2,7 @@
 
 Weekly Class Schedule
 Description
-This repository contains a project that displays a Weekly Class Schedule using an HTML table. The table includes the days of the week as columns and time slots as rows, spanning from 9 AM to 5 PM. The schedule is designed using rowspan and colspan to accurately reflect class durations and to create a clean, organized layout. The project demonstrates the use of HTML and basic CSS for table styling.
+This repository contains a project that displays a Weekly Class Schedule using an HTML table. The table includes the days of the week as columns and time slots as rows, spanning from 9 AM to 5 PM. The schedule is designed using rowspan and colspan to accurately reflect class durations and to create a clean, organized layout. The project demonstrates the use of HTML and basic Enternal CSS for table styling.
 
 Features
 Organized Layout: Days of the week and time slots for easy schedule management.
